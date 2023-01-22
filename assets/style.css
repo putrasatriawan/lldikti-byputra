@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+/* .info-terbaru .info-terbaru-child {
+	margin-right: auto;
+	font-style: normal;
+	color: rgb(0, 0, 0);
+	margin-right: 0%;
+	font-family: poppins;
+} */
+body {
+	font-family: "poppins", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.banner {
+	font-family: poppins;
+}
+.banner .lembaga {
+	color: #2657a7;
+}
+.banner .jawabarat {
+	color: #ffb94c;
+}
+
+.button-blue {
+	background-color: #2657a7;
+	border-color: #2657a7;
+	color: #ffffff;
+	font-family: poppins;
+}
+
+.card-title {
+	font-family: poppins;
+	color: #2657a7;
+}
+
+.card-text {
+	font-family: poppins;
+	color: #ffb94c;
+}
+
+.tgl-created {
+	font-family: poppins;
+	color: #888888;
+}
+
+.card-title-layanan {
+	font-family: poppins;
+	color: #2657a7;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.card-text-layanan {
+	font-family: poppins;
+	color: #ffb94c;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.page-footer {
+	color: #2657a7;
+}
+
+/* .layanan-online .layanan-online-child {
+	margin-right: auto;
+	font-style: normal;
+	color: rgb(0, 0, 0);
+	margin-right: 0%;
+	font-family: poppins;
+} */
+
+/* .layanan-kami .layanan-kami-child {
+	margin-right: auto;
+	font-style: normal;
+	color: rgb(0, 0, 0);
+	margin-right: 0%;
+	font-family: poppins;
+} */
+
+.layanan-kami {
+	margin-bottom: 1rem;
+}
+
+.layanan-kami .layanan-kami-list h2 {
+	margin-bottom: 3rem;
+	font-size: 18px;
+	font-family: poppins;
+	color: #2657a7;
+	text-align: left;
+	border-radius: 1%;
+}
+
+.sub-head {
+	text-align: left;
+	font-style: bold;
+	color: rgb(0, 0, 0);
+	margin-right: 0%;
+	font-family: poppins;
+}
+.butuh-bantuan .card {
+	text-align: left;
+	background-color: #2657a7;
+	border-radius: 50px 50px 50px 50px;
+}
+
+.butuh-bantuan .card .butuh-card img {
+	margin-top: 4rem;
+	margin-left: 4rem;
+}
+
+.butuh-bantuan .card .text-bantuan {
+	text-align: left;
+	font-family: poppins;
+	color: #ffb94c;
+	font-size: larger;
+}
+
+.butuh-bantuan .card .text-butuh-bantuan {
+	text-align: left;
+	font-family: poppins;
+	color: #ffffff;
+	font-size: 50px;
+}
+.butuh-bantuan .card .text-butuh-bantuan-child {
+	text-align: left;
+	font-family: poppins;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.butuh-bantuan .card .button-butuh {
+	text-align: right;
+	background-color: #2657a7;
+	border-color: #ffb94c;
+	color: #ffb94c;
+	font-family: poppins;
+	margin-left: 20rem;
+	margin-top: 2rem;
+}
+.page-footer {
+	background-color: #2657a7;
+	color: white;
+	font-family: poppins;
+}
+.navtop {
+	background-color: #2657a7;
+	color: #ffffff;
+}
+
+.sebaran {
+	background-color: #2657a7;
+	height: 20rem;
+}
+
+.help-card .card-body {
+	text-align: left;
+	background-color: #2657a7;
+	border-radius: 50px;
+}
+
+.testimonials h2 {
+	font-family: poppins;
+	font-style: bold;
+	color: rgb(0, 0, 0);
+}
+
+.portfolio .portfolio-item {
+	position: relative;
+	display: block;
+	max-width: 50rem;
+	margin-bottom: 15px;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+	transition: all ease 0.5s;
+	opacity: 0;
+	background-color: #2657a7;
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+	opacity: 1;
+}
+.portfolio
+	.portfolio-item
+	.portfolio-item-caption
+	.portfolio-item-caption-content {
+	font-size: 1.5rem;
+}
+@media (min-width: 576px) {
+	.portfolio .portfolio-item {
+		margin-bottom: 30px;
+	}
+}
+.portfolio-modal .portfolio-modal-dialog {
+	padding: 3rem 1rem;
+	min-height: calc(100vh - 2rem);
+	margin: 1rem calc(1rem - 8px);
+	position: relative;
+	z-index: 2;
+	box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+}
+.portfolio-modal .portfolio-modal-dialog .close-button {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+}
+.portfolio-modal .portfolio-modal-dialog .close-button i {
+	line-height: 38px;
+}
+.portfolio-modal .portfolio-modal-dialog h2,
+.portfolio-modal .portfolio-modal-dialog .h2 {
+	font-size: 2rem;
+}
+@media (min-width: 768px) {
+	.portfolio-modal .portfolio-modal-dialog {
+		min-height: 100vh;
+		padding: 5rem;
+		margin: 3rem calc(3rem - 8px);
+	}
+	.portfolio-modal .portfolio-modal-dialog h2,
+	.portfolio-modal .portfolio-modal-dialog .h2 {
+		font-size: 3rem;
+	}
+}
+.modal-header {
+	border-bottom: none;
+}
+
+.footer-copyright {
+	background-color: rgb(0, 0, 0);
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: center;
+	margin-top: 50px;
+	border: 1px solid #ededed;
+}
+.page-footer.dark .footer-copyright {
+	background-color: #222425;
+	border-color: #222425;
+}
+.page-footer .footer-copyright p {
+	margin: 10px;
+	color: #7d8288;
+}
+.page-footer.dark .footer-copyright p {
+	color: #ccc;
+}
+.page-footer ul {
+	list-style-type: none;
+	padding-left: 0;
+	line-height: 1.7;
+}
+
+.faq {
+	padding: 50px 0 0;
+	background-color: #f4f8fa;
+}
+
+.text-profil h1 p {
+	font-family: poppins;
+	color: #222425;
+}
+.banner .animasi p {
+	font-size: 3rem;
+	padding: 0.5rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	text-align: center;
+	overflow: hidden;
+}
+.banner .animasi p span.typed-text {
+	font-weight: normal;
+	color: #ff6600;
+}
+.banner .animasi p span.TypeCursor {
+	display: inline-block;
+	background-color: #ccc;
+	margin-left: 0.1rem;
+	width: 3px;
+	animation: blink 1s infinite;
+}
+.banner .animasi p span.TypeCursor.typing {
+	animation: none;
+}
+@keyframes blink {
+	0% {
+		background-color: #ccc;
+	}
+	49% {
+		background-color: #ccc;
+	}
+	50% {
+		background-color: transparent;
+	}
+	99% {
+		background-color: transparent;
+	}
+	100% {
+		background-color: #ccc;
+	}
+}
+@media (max-width: 750px) {
+	.banner .animasi p {
+		font-size: 2rem;
+	}
+	.floating-btn {
+		background: green;
+		display: block;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		text-decoration: none;
+		transition: ease all 0.3s;
+		position: fixed;
+		right: 30px;
+		bottom: 30px;
+	}
+}
+
+#scrollUp {
+	background: #2657a7;
+	height: 50px;
+	width: 50px;
+	right: 31px;
+	bottom: 18px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 48px;
+	border: 2px solid transparent;
+}
+@media (max-width: 767px) {
+	#scrollUp {
+		right: 16px;
+	}
+}
+#scrollUp:hover {
+	color: #fff;
+}
+
+.bg-head {
+	background-image: url ("assets/img/dash2.jpg");
+}
+.buy-now .btn-buy-now {
+	position: fixed;
+	bottom: 3rem;
+	right: 1.625rem;
+	z-index: 999999;
+	box-shadow: 0 1px 20px 1px #2657a7;
+}
+.buy-now .btn-buy-now:hover {
+	box-shadow: none;
+}

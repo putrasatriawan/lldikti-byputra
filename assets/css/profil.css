@@ -1,0 +1,17 @@
+.img-profil img{
+    width: 30%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.img-profil img:not(:last-child){
+    margin-right: 4%;
+}
+.img-sjrh{
+    height: fit-content;
+    justify-content: center;
+    margin-bottom: -300px;
+}
+.img-sjrh img{
+    position: relative;
+    z-index: -1;
+}
